@@ -1,15 +1,28 @@
+*{
+    color: azure;
+}
+
+
+
 body {
+    background-image: url("https://images.steamusercontent.com/ugc/2011467004295931235/5E97DB1B34585CAD915BDBF583BD9E991C9AC26E/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     padding: 0;
-color: #222;
-/* background: linear-gradient(135deg, #0d0221, #1e0a3c, #a6002b); */
-
-
+    color: #222;
+    min-height: 100vh;
 }
 header, footer {
-background: linear-gradient(135deg, #000000, #1a0033, #4b0082);
+    background-image: url("https://w0.peakpx.com/wallpaper/145/765/HD-wallpaper-2023-spider-man-across-the-spider-verse-1-spider-man-across-the-spider-verse-spiderman-2023-movies-movies-1-1.jpg");
+/* background: linear-gradient(135deg, #000000, #1a0033, #4b0082); */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100%;
 color: white;
 text-align: center;
 padding: 20px;
@@ -17,7 +30,7 @@ padding: 20px;
 main {
 max-width: 800px;
 margin: 20px auto;
-background-color: white;
+/* background-color: white; */
 padding: 20px 30px;
 border-radius: 8px;
 }
@@ -25,10 +38,11 @@ section {
 margin-bottom: 25px;
 }
 .info-box {
-background-color: #eee;
+/* background-color: #eee; */
 padding: 10px 15px;
 border-radius: 6px;
 }
 h2 {
-color: #2b0f54;
+color: #a181d0;
 }
+
