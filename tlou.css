@@ -42,3 +42,19 @@ h2{
     line-height: 1.6;
     max-width: 600px;
 }
+.anick{
+
+    position: absolute;
+    top: 90%;
+
+    
+}
+
+
+select , .sumit {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.341);
+    border-radius: 8px;
+}
+
+
