@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(143, 11, 11, 0.34);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    width:100%;
+}
+
+.upnav{
+    background-color: rgb(216, 102, 151);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: antiquewhite;
+    border-radius: 50%;
+
+}
+.logo h2{
+    font-size: 28px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap:12px;
+    background-color: rgba(126, 17, 131, 0.342);
+}
+.user img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.user button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer;
+
+
+}
+.user button:hover{
+    background-color: black;
+}
+.bnav
+{
+    
+    background-color: rgb(242, 160, 130);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+nav ul li a  {
+    background-color: rgb(33, 142, 236);
+    list-style: none;
+
+
+
+}
+nav ul li a:hover {
+    background-color:black;
+
+
+}
+
+footer{
+
+
+    height: 80px;
+    color: bisque;
+    background-color: rgb(16, 11, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+
+
+}
+
+
+main{
+    height: 700px;
+}
