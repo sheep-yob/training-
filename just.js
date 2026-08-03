@@ -16,12 +16,23 @@
 
 
 
-let username;
-document.getElementById("haha").onclick = function(){
-    username = document.getElementById("name").value ;
+// let username;
+// document.getElementById("haha").onclick = function(){
+//     username = document.getElementById("name").value ;
 
 
-    console.log (username);
-    document.getElementById("head").textContent = `hi ${username} `
+//     console.log (username);
+//     document.getElementById("head").textContent = `hi ${username} `
+// }
+
+
+let age = 24; 
+if (age >= 18){
+    console.log("can vote ");
+    
+}
+else
+{
+    console.log("can't vote ");
 }
 
